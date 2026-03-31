@@ -1,3 +1,10 @@
+DEPRECATED
+============
+
+Memoist has been deprecated and we recommend the use of [MemoWise](github.com/panorama-ed/memo_wise). It is maintained, thread-safe and faster.
+
+--------------
+
 Memoist
 =============
 
@@ -79,7 +86,7 @@ class Person
 end
 ```
 
-When a sub-class overrides one of its parent's methods and you need to memoize both. 
+When a sub-class overrides one of its parent's methods and you need to memoize both.
 Then you can use the `:identifier` parameter in order to help _Memoist_ distinguish between the two.
 
 ```ruby
